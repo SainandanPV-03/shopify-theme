@@ -1,5 +1,5 @@
 console.log("custom.js loading");
-console.log("custom js 2 loading");
+console.log("Changes from GIT - custom js loading");
 let selectedVariantId=null;
 document.addEventListener('DOMContentLoaded',()=>{
   const selectedVariantScript=document.querySelector('variant-selects [data-selected-variant]');
