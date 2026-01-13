@@ -1,0 +1,41 @@
+{% if search.performed %}
+  {% paginate search.results by 2 %}
+    {% assign shown_count = search.results | size %}
+
+    <div
+      class="api-search-meta"
+      data-total="{{ search.results_count }}"
+      data-shown="{{ shown_count }}"
+    ></div>
+
+    {% if search.results_count > 0 %}
+      <div id="ProductGridContainer">
+        <ul
+          id="api-search-grid"
+          class="grid product-grid grid--2-col grid--3-col-tablet grid--4-col-desktop"
+          data-id="ajax-search"
+        >
+          {% for product in search.results %}
+            <li class="grid__item">
+              <div class="card-wrapper product-card-wrapper underline-links-hover">
+                {% render 'card-product',
+                  card_product: product,
+                  media_aspect_ratio: 'square',
+                  show_secondary_image: true,
+                  show_vendor: true,
+                  show_rating: false
+                %}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      {% if paginate.pages > 1 %}
+        {% render 'pagination', paginate: paginate %}
+      {% endif %}
+    {% else %}
+      <p>No products found</p>
+    {% endif %}
+  {% endpaginate %}
+{% endif %}

@@ -1,0 +1,58 @@
+<div class="custom-text-section">
+  <h2>Welcome to MiniWheels!</h2>
+  <p>Discover our premium diecast collection with perfect attention to detail.</p>
+
+  {% for block in section.blocks %}
+    {% if block.type=='button' %}
+      <a href="#" class="button">
+        {{block.settings.label }}
+      </a>
+    {% endif %}
+
+    {% if block.type=='image' %}
+       <img src="{{ block.settings.image | image_url:'300x'}}" width="300" height="300">
+    {% endif %}
+  {% endfor %}
+</div>
+
+<button id="menu-toggle" class="button">
+  Go Back To 
+</button>
+
+<div id="mobile-menu" class="mobile-menu">
+  <a href="{{ routes.root_url }}">Home</a><br>
+  <a href="{{ routes.all_products_collection_url }}">Products</a>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Custom Text Section",
+  "settings": [],
+  "blocks":[
+    {
+      "type": "button",
+      "name": "Button custom",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Button Label"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "image custom",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Select Image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

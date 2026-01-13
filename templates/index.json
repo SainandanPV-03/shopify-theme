@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/911_grey.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_KfnTHk": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_3TkkJ6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/diecast_collection.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Premium Scale Model Cars",
+            "heading_size": "h1",
+            "subheading": "Discover detailed collectible scale models from top brands",
+            "button_label": "Shop All Models",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_jigzmk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/g63_g63.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Choose Your Perfect Scale",
+            "heading_size": "h1",
+            "subheading": "From compact 1:64 to large 1:16 displays - find the scale that fits your collection",
+            "button_label": "Browse by Scale",
+            "link": "shopify://pages/browse-by-scale",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_3TkkJ6",
+        "slide_jigzmk"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multicolumn_pHq8zP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dHUrtq": {
+          "type": "column",
+          "settings": {
+            "title": "Vijayakumar   ⭐⭐⭐⭐⭐",
+            "text": "<p>The MiniWheels diecast models are incredibly detailed and feel premium. Packaging was secure and delivery was fast. Perfect for collectors who care about accuracy and quality</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ttVHFA": {
+          "type": "column",
+          "settings": {
+            "title": "Sainandan   ⭐⭐⭐⭐",
+            "text": "<p>Bought my first diecast from MiniWheels and the experience was smooth from ordering to delivery. The product quality exceeded my expectations</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NFeEd9": {
+          "type": "column",
+          "settings": {
+            "title": "Ajay   ⭐⭐⭐⭐⭐",
+            "text": "<p>Bought my first diecast from MiniWheels and the experience was smooth from ordering to delivery. The product quality exceeded my expectations</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dHUrtq",
+        "column_ttVHFA",
+        "column_NFeEd9"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "What our customers say",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "slideshow_KfnTHk",
+    "multicolumn_pHq8zP"
+  ]
+}

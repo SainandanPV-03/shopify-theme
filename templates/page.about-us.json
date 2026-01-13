@@ -1,0 +1,116 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_cMHenD": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Cz4bYn": {
+          "type": "heading",
+          "settings": {
+            "heading": "What We Do",
+            "heading_size": "h1"
+          }
+        },
+        "text_jaPMLt": {
+          "type": "text",
+          "settings": {
+            "text": "From classic legends to modern performance cars, MiniWheels curates scale models that reflect real-world design, proportions, and detailing. Each model is selected to meet collector-grade standards.",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Cz4bYn",
+        "text_jaPMLt"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/banner_homepage_911.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "multicolumn_MLCD3a": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_aTTMrp": {
+          "type": "column",
+          "settings": {
+            "title": "Authentic Detailing",
+            "text": "<p>Every model reflects accurate proportions and fine detailing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ELt34m": {
+          "type": "column",
+          "settings": {
+            "title": "Collector Quality",
+            "text": "<p>Made using durable die-cast materials for long-term display.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eeW7cD": {
+          "type": "column",
+          "settings": {
+            "title": "Curated Selection",
+            "text": "<p>Only iconic and high-performance cars make it to our collection.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_aTTMrp",
+        "column_ELt34m",
+        "column_eeW7cD"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Why MiniWheels",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_cMHenD",
+    "multicolumn_MLCD3a"
+  ]
+}

@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_i7pK6w": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9YCkPT": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "1:16",
+            "link": "shopify://collections/1-16"
+          }
+        },
+        "column_tztn6T": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "1:24",
+            "link": "shopify://collections/1-24"
+          }
+        },
+        "column_RzjKa7": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "1:32",
+            "link": "shopify://collections/1-32"
+          }
+        },
+        "column_ewDVwe": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "1:64",
+            "link": "shopify://collections/1-64"
+          }
+        }
+      },
+      "block_order": [
+        "column_9YCkPT",
+        "column_tztn6T",
+        "column_RzjKa7",
+        "column_ewDVwe"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Browse By Scale",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_i7pK6w"
+  ]
+}

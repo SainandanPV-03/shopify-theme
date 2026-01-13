@@ -1,0 +1,22 @@
+{% comment %} Receives product handles via URL {% endcomment %}
+
+{% assign handles = request.query_string | split: 'handles=' | last | split: ',' %}
+
+<div class="collection page-width">
+  <ul class="grid product-grid grid--2-col grid--4-col-desktop">
+    {% for handle in handles %}
+      {% assign product = all_products[handle] %}
+      {% if product %}
+        <li class="grid__item">
+          {% render 'card-product',
+            card_product: product,
+            media_aspect_ratio: 'square',
+            show_secondary_image: true,
+            show_vendor: true,
+            show_rating: false
+          %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
