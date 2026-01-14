@@ -231,3 +231,11 @@ function updateAjaxSearchCount(container) {
     .forEach(el => el.textContent = text);
 }
 
+
+
+
+
+document.addEventListener('DOMContentLoaded',()=>{
+  const currentProduct=document.querySelector('.card__content');
+  console.log(currentProduct);
+})
