@@ -237,5 +237,5 @@ function updateAjaxSearchCount(container) {
 
 document.addEventListener('DOMContentLoaded',()=>{
   const currentProductHeading=document.querySelector('.card__heading');
-  console.log(currentProductHeading?.innerText);
-})
+  console.log(currentProductHeading.innerText);
+});
